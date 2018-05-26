@@ -1,0 +1,36 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+<System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385F-C22A-43E0-BF4C-06F5698CFBD9}" />
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2018-05-26T10:23:19.348861000Z" /> 
+  <EventRecordID>1247136</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="2804" ThreadID="1280" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>PROMETHEUS</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+<EventData>
+  <Data Name="UtcTime">2018-05-26 10:23:19.332</Data> 
+  <Data Name="ProcessGuid">{C1B49677-3597-5B08-0000-0010D2635100}</Data>
+  <Data Name="ProcessId">1196</Data> 
+  <Data Name="Image">C:\Windows\System32\mmc.exe</Data> 
+  <Data Name="CommandLine">"C:\Windows\system32\mmc.exe" "C:\Windows\system32\eventvwr.msc" /s</Data> 
+  <Data Name="CurrentDirectory">C:\Windows\system32\</Data> 
+  <Data Name="User">PROMETHEUS\neo</Data> 
+  <Data Name="LogonGuid">{C1B49677-2C06-5B09-0000-002007FF0100}</Data> 
+  <Data Name="LogonId">0x1ff07</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">High</Data> 
+  <Data Name="Hashes">SHA1=F5DC12D658402900A2B01AF2F018D113619B96B8,MD5=9FEA051A9585F2A303D55745B4BF63AA</Data> 
+  <Data Name="ParentProcessGuid">{C1B49676-2C07-5B09-0000-00107F1F0200}</Data>
+  <Data Name="ParentProcessId">2224</Data> 
+  <Data Name="ParentImage">C:\Windows\explorer.exe</Data> 
+  <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data> 
+</EventData>
+</Event>

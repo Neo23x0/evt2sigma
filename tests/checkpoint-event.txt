@@ -1,0 +1,1 @@
+Apr 11 11:04:48 hostng Checkpoint: 21Aug2007 12:00:00 accept 10.10.10.2 >eth0 rule: 100; rule_uid: {00000000-0000-0000-0000-000000000000}; service_id: nbdatagram; src: 10.10.10.3; dst: 10.10.10.255; proto: udp; product: VPN-1 & FireWall-1; service: 138; s_port: 138;
