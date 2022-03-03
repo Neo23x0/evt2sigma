@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.6
+#!/usr/bin/env python3
 
 __AUTHOR__ = 'Florian Roth'
 __VERSION__ = "0.0.1 May 2018"
@@ -15,6 +15,7 @@ import datetime
 from itertools import islice
 import argparse
 from colorama import init, Fore, Back, Style
+import sys
 
 # Config
 
@@ -254,6 +255,9 @@ if __name__ == '__main__':
     group_header.add_argument('-c', help='Category (e.g. proxy)', metavar='', default='')
 
     args = parser.parse_args()
+    if len(sys.argv) <2:
+        parser.print_usage()
+        sys.exit(1)
 
     # Prepare Regex set
     re_set = []
